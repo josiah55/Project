@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation bar */
+
+.navbar-collapse ul li {
+    list-style-type: none;
+}
+
+.navbar-collapse ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-collapse ul li a:hover {
+    color: seagreen;
+}
+
+/* Hero */
+#hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+    margin-top: 200px;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.hero-content h2  {
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.hero-content span {
+    color: #deb887;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.hero-content a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.hero-content a:hover {
+    color: #000;
+    background-color: #deb887
+}
+
+/* About */
+#about-us a {
+    border-radius: 10px;
+}
+
+#about-us a:hover {
+    background-color: lightgrey;
+}
+
+/* CEO */
+.col-md-4 a {
+    border-radius: 10px;
+}
+
+.col-md-4 a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
